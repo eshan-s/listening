@@ -38,3 +38,7 @@ function getExpectedAnswer() {
 function playAudio(audioSource, buttonIndex) {
   playAudioWithIndex(audioSource, buttonIndex);
 }
+
+function goBack() {
+  window.open("https://thedeveric.github.io/groupgame/");
+}
